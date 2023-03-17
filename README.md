@@ -1,5 +1,5 @@
 # Cara Kerja Program
-  Program yang dibuat merupakan sebuah implementasi dari single linked list yang menyimulasikan sebuah antrian pembuatan kartu perpustakaan. Berikut ini adalah penjelasan dari setiap bagian program yang mendukung bagaimana program bekerja.
+  Program yang dibuat merupakan sebuah implementasi dari single linked list yang menggambarkan proses antrian pembuatan kartu perpustakaan. Berikut ini adalah penjelasan dari setiap bagian program yang mendukung bagaimana program bekerja.
   
 Pada program terdapat dua kelas yaitu:
  
