@@ -3,31 +3,22 @@
   
 Pada program terdapat dua kelas yaitu:
  
-•	Class Node: digunakan untuk membuat objek node, yang berisi data dan arahan ke node berikutnya.
-
-•	Class LinkedList: digunakan untuk membuat objek linked list, yang berisi head node dan list history untuk menyimpan setiap data masuk dan data keluar pada linked list.
+1. Class Node: digunakan untuk membuat objek node, yang berisi data dan arahan ke node berikutnya.
+2. Class LinkedList: digunakan untuk membuat objek linked list, yang berisi head node dan list history untuk menyimpan setiap data masuk dan data keluar pada linked list.
 
 Pada program terdapat empat def atau fungsi yaitu sebagai berikut.
   
-•	Fungsi init(): digunakan untuk mendefinisikan head node dan list history.
+1. Fungsi init(): digunakan untuk mendefinisikan head node dan list history.
+2. FungsitambahAkhir(): digunakan untuk menambahkan data baru pada akhir linked list, dengan memeriksa apakah linked list kosong atau tidak.
+3. FungsihapusDepan(): digunakan untuk menghapus data pertama yang diinput pada linked list (yaitu yang berada paling depan pada antrian), jika linked list tidak kosong.
+4. Fungsi printList(): digunakan untuk menampilkan isi linked list, dimulai dari head node.
 
-•	FungsitambahAkhir(): digunakan untuk menambahkan data baru pada akhir linked list, dengan memeriksa apakah linked list kosong atau tidak.
-
-•	FungsihapusDepan(): digunakan untuk menghapus data pertama yang diinput pada linked list (yaitu yang berada paling depan pada antrian), jika linked list tidak kosong.
-
-•	Fungsi printList(): digunakan untuk menampilkan isi linked list, dimulai dari head node.
-
-Program juga dilengkapai dengan menu interaktif yang terdiri dari 5 pilihan menu seperti di bawah ini.
-  
-•	Tambah antrian: meminta input nama pendaftar, dan menambahkan nama tersebut pada akhir linked list.
-
-•	Tampilkan daftar antrian: menampilkan semua nama pendaftar dalam antrian, dimulai dari yang paling depan atau yang terlebih dahulu masuk.
-
-•	Panggil antrian: menghapus nama pendaftar yang paling depan pada antrian.
-
-•	Riwayat antrian: menampilkan riwayat setiap hal yang dilakukan pada antrian (misalnya, data masuk atau data dihapus).
-
-•	Exit: keluar dari program.
+Program juga dilengkapai dengan menu yang terdiri dari 5 pilihan, yaitu sebagai berikut.
+1. Tambah antrian: meminta input nama pendaftar, dan menambahkan nama tersebut pada akhir linked list.
+2. Tampilkan daftar antrian: menampilkan semua nama pendaftar dalam antrian, dimulai dari yang paling depan atau yang terlebih dahulu masuk.
+3. Panggil antrian: menghapus nama pendaftar yang paling depan pada antrian.
+4. Riwayat antrian: menampilkan riwayat setiap hal yang dilakukan pada antrian (misalnya, data masuk atau data dihapus).
+5. Exit: keluar dari program.
 
   Dengan demikian, program tersebut mengimplementasikan struktur data linked list untuk membuat sistem antrian pada perpustakaan, dan dilengkapi dengan menu yang dapat menambah, menghapus, melihat daftar nama pendaftar dalam antrian, dan melihat riwayat pada antrian.
 
