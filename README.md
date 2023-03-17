@@ -1,3 +1,7 @@
+Nama: Agnesia Prawini Thesalonika
+
+NIM: 2209116068
+
 # Cara Kerja Program
   Program yang dibuat merupakan sebuah implementasi dari single linked list yang menggambarkan proses antrian pembuatan kartu perpustakaan. Berikut ini adalah penjelasan dari setiap bagian program yang mendukung bagaimana program bekerja.
   
