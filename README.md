@@ -23,7 +23,7 @@ Program juga dilengkapai dengan menu yang terdiri dari 5 pilihan, yaitu sebagai 
   Dengan demikian, program tersebut mengimplementasikan struktur data linked list untuk membuat sistem antrian pada perpustakaan, dan dilengkapi dengan menu yang dapat menambah, menghapus, melihat daftar nama pendaftar dalam antrian, dan melihat riwayat pada antrian.
 
 # Fungsionalitas Program
-  Program ini merupakan sebuah implementasi dari struktur data linked list yang digunakan untuk membuat antrian pada perpustakaan. Fungsionalitas program adalah unutuk mengidentifikasi setiap data yang masuk dan data yang keluar pada antrian.
+  Program ini merupakan sebuah implementasi dari struktur data linked list yang digunakan untuk membuat antrian pembuatan kartu perpustakaan. Fungsionalitas program adalah untuk mengidentifikasi setiap data yang masuk dan data yang keluar pada antrian.
 
 # Bagaimana Aplikasi Bekerja
 Pada awal program, sebuah objek LinkedList dengan head kosong dan list riwayat kosong dibuat. Kemudian, program akan menampilkan pilihan menu, yaitu:
@@ -40,7 +40,7 @@ Pada awal program, sebuah objek LinkedList dengan head kosong dan list riwayat k
   
   Jika pengguna memilih opsi "3", program akan menghapus data pertama dari linked list menggunakan fungsi hapusDepan. Kemudian program akan menampilkan daftar antrian yang terbaru dengan menggunakan fuingsi printList.
   
-  Jika pengguna memilih opsi "4", program akan menampilkan riwayat semua peristiwa yang terjadi pada linked list. Ini mencakup setiap kali sebuah data ditambahkan ke dalam linked list atau dihapus dari linked list.
+  Jika pengguna memilih opsi "4", program akan menampilkan riwayat semua peristiwa yang terjadi pada linked list. Ini mencakup setiap data yang ditambahkan ke dalam linked list atau dihapus dari linked list.
   
   Jika pengguna memilih opsi "5", program akan berhenti.
   
@@ -51,11 +51,11 @@ Pada awal program, sebuah objek LinkedList dengan head kosong dan list riwayat k
 ![post test 3 2](https://user-images.githubusercontent.com/127474858/225945633-4c829d61-27e4-48b8-a524-7e2bb88839d7.jpeg)
 ![post test 3 3](https://user-images.githubusercontent.com/127474858/225945723-77346e14-d98e-4a81-a8a5-2c9e47f7a8f0.jpeg)
 
-  Pada awalnya program akan menampilkan daftar menu yang tersedia. Kemudian, user memilih menu 1 yaitu untuk menambah data. Selanjunya, user memasukkan tiga data berupa nama pendaftar. Setelah itu, user memilih menu 2 dan program akan menampilkan daftar antrian yang telah masuk. Kemudian, user memilih menu 3 yaitu panggil antrian dan program akan memanggil antrian dimulai dari data yang paling depan atau yang paling awal dimasukkan. Hal ini berarti data yang dipanggil akan dihapus dari daftar antrian. Selanjutnya, user memilih menu 4 dan program akan menampilkan riwayat data masuk dan data yang dihapus pada antrian. Terakhir, user memilih menu 5 sehingga program berhenti
+  Pada awalnya program akan menampilkan daftar menu yang tersedia. Kemudian, pengguna memilih menu 1 yaitu untuk menambah data. Selanjunya, pengguna memasukkan tiga data berupa nama pendaftar. Setelah itu, pengguna memilih menu 2 dan program akan menampilkan daftar antrian yang telah masuk. Kemudian, pengguna memilih menu 3 yaitu panggil antrian dan program akan memanggil antrian dimulai dari data yang paling depan atau yang paling awal dimasukkan. Hal ini berarti data yang dipanggil akan dihapus dari daftar antrian. Selanjutnya, pengguna memilih menu 4 dan program akan menampilkan riwayat data masuk dan data yang dihapus pada antrian. Terakhir, pengguna memilih menu 5 sehingga program berhenti.
 
 # Elemen Penting yang Digunakan
-  Linked list digunakan untuk menyimpan data pengunjung dalam bentuk node-node yang terhubung secara berurutan. Setiap node terdiri dari sebuah data (nama pengunjung) dan sebuah pointer yang menunjuk ke node berikutnya.
+  Linked list digunakan untuk menyimpan data pengunjung dalam bentuk node-node yang terhubung secara berurutan. Setiap node terdiri dari sebuah data (nama pendaftar) dan sebuah pointer yang menunjuk ke node berikutnya.
   
-  Kelas Node memiliki dua atribut, yaitu data dan next. Atribut data menyimpan data pendaftar  dalam bentuk string, sedangkan atribut next adalah pointer yang menunjuk ke node berikutnya.
+  Kelas Node memiliki dua atribut, yaitu data dan next. Atribut data menyimpan data pendaftar dalam bentuk string, sedangkan atribut next adalah pointer yang menunjuk ke node berikutnya.
   
   Kelas LinkedList digunakan untuk membuat linked list dan mengimplementasikan menu tambah elemen di akhir linked list (tambahAkhir()), hapus elemen di depan linked list (hapusDepan()), dan cetak linked list (printList()), dan menyimpan riwayat kejadian pada linked list dalam atribut history. Program berjalan secara terus menerus sampai pengguna memilih opsi keluar (Exit).
